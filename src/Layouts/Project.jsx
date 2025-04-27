@@ -2,7 +2,7 @@ import Aljihaad from "../assets/images/aljihaad.png";
 import dashboardAljihaad from "../assets/images/dashboardAljihaad.png";
 import afr from "../assets/images/afr.png";
 import rakes from "../assets/images/rakes.jpg";
-import dumas from "../assets/images/dumass.png";
+import dumas from "../assets/images/dumass.PNG";
 import mental from "../assets/images/mental.png";
 import pangan from "../assets/images/pangan.png";
 import apari from "../assets/images/apari.png";
