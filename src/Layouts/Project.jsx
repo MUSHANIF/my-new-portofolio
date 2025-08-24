@@ -4,6 +4,8 @@ import afr from "../assets/images/afr.png";
 import rakes from "../assets/images/rakes.jpg";
 import dumas from "../assets/images/dumass.PNG";
 import mental from "../assets/images/mental.png";
+import kopiAnugrah from "../assets/images/kopiAnugrah.png";
+import mindly from "../assets/images/mindly.png";
 import pangan from "../assets/images/pangan.png";
 import apari from "../assets/images/apari.png";
 function Project() {
@@ -327,6 +329,81 @@ function Project() {
               <div className="flex space-x-4">
                 <a
                   href="#"
+                  className="text-indigo-600 hover:text-indigo-800 transition"
+                >
+                  <i className="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="#"
+                  className="text-indigo-600 hover:text-indigo-800 transition"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-card rounded-xl overflow-hidden bg-white">
+            <div className="h-48 overflow-hidden">
+              <img
+                src={kopiAnugrah}
+                alt="AI Content Generator"
+                className="w-full h-full object-cover transition duration-500 hover:scale-110"
+              ></img>
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-start mb-3">
+                <h3 className="text-xl font-bold text-slate-800">
+                  Website Kopi Anugrah (Project Freelance)
+                </h3>
+                <span className="bg-red-200  text-red-900 text-xs px-2 py-1 rounded">
+                  React JS
+                </span>
+              </div>
+              <p className="text-slate-600 mb-4">
+                E-commerce website for a coffee shop, showcasing various coffee
+                products and allowing users to place orders online.
+              </p>
+              <div className="flex space-x-4">
+                <a
+                  href="https://anugrahpanganbersinar.com/"
+                  className="text-indigo-600 hover:text-indigo-800 transition"
+                >
+                  <i className="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="#"
+                  className="text-indigo-600 hover:text-indigo-800 transition"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-card rounded-xl overflow-hidden bg-white">
+            <div className="h-48 overflow-hidden">
+              <img
+                src={mindly}
+                alt="AI Content Generator"
+                className="w-full h-full object-cover transition duration-500 hover:scale-110"
+              ></img>
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-start mb-3">
+                <h3 className="text-xl font-bold text-slate-800">
+                  Website Mindly (Education)
+                </h3>
+                <span className="bg-red-200  text-red-900 text-xs px-2 py-1 rounded">
+                  React JS
+                </span>
+              </div>
+              <p className="text-slate-600 mb-4">
+                Educational website providing resources and information for
+                students, including study materials and learning tips about
+                mental health
+              </p>
+              <div className="flex space-x-4">
+                <a
+                  href="https://mindlysikolog.netlify.app/"
                   className="text-indigo-600 hover:text-indigo-800 transition"
                 >
                   <i className="fas fa-external-link-alt"></i>
