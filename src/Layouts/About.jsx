@@ -67,7 +67,8 @@ function About() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="#"
+                href="/CV%20MUSTHAFA%20HANIF.pdf"
+                download="CV MUSTHAFA HANIF.pdf"
                 className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition shadow-md"
               >
                 Download CV
