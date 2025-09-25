@@ -1,4 +1,6 @@
 import fotoMus from "../assets/images/musgunung.png";
+import fotoMusFormal from "../assets/images/formal.png";
+import fotodiri from "../assets/images/fotodiri.jpg";
 function About() {
   return (
     <section id="about" className="py-20 bg-white">
@@ -16,7 +18,7 @@ function About() {
           <div className="md:w-1/3 mb-10 md:mb-0 flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-100 shadow-lg">
               <img
-                src={fotoMus}
+                src={fotodiri}
                 alt="MusSolution"
                 className="w-full h-full object-cover"
               ></img>

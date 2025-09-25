@@ -1,4 +1,5 @@
 import fotodiri from "../assets/images/fotodiri.jpg";
+import fotoMusFormal from "../assets/images/formal.png";
 function Hero() {
   return (
     <>
@@ -43,7 +44,7 @@ function Hero() {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-indigo-500 to-emerald-500 flex items-center justify-center overflow-hidden shadow-xl floating">
                   <img
-                    src={fotodiri}
+                    src={fotoMusFormal}
                     alt="MusSolution"
                     className="w-full h-full object-cover"
                   ></img>

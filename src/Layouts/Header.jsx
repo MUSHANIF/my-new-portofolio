@@ -1,3 +1,4 @@
+import logo from "../assets/images/logo.png";
 function Header() {
   return (
     <>
@@ -6,7 +7,11 @@ function Header() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-indigo-500 to-emerald-500 flex items-center justify-center text-white font-bold text-xl">
-                MS
+                <img
+                  src={logo}
+                  alt="MusSolution"
+                  className="w-full h-full object-cover"
+                ></img>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-emerald-600 bg-clip-text text-transparent">
                 MusSolution
